@@ -1,12 +1,15 @@
+##### test the project
+
+    ./gradlew test 
+    
 ##### build the project
 
     ./gradlew build
 
-##### build Docker image called java-app. Execute from root
+##### build Docker image called java-gradle; execute from root
 
-    docker build -t java-app .
+    docker build -t java-gradle .
     
 ##### push image to repo 
 
-    docker tag java-app demo-app:java-1.0
-    
+    docker tag java-gradle java-gradle:latest
